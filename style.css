@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap");
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  overflow: scroll;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #f75036;
+}
+
+.landingSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(./assets/imagenes/fondos/BackgroundMobile.png);
+}
+
+.landingSection .tituloLanding {
+  color: #ffff;
+  font-family: 'fira code', monospace;
+  font-weight: 600;
+}
+
+.landingSection .subLanding {
+  width: 80vw;
+  color: #ffff;
+  text-align: center;
+  font-family: 'fira code', monospace;
+  font-weight: 400;
+}
+
+.contenedorBotonesLanding {
+  display: none;
+}
+
+.filmSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(./assets/imagenes/fondos/videoMobile.jpg);
+  background-size: cover;
+}
+
+.filmSection h1 {
+  font-family: 'fira code', monospace;
+  font-weight: 400;
+  color: #f75036;
+  text-shadow: 1px 1px 2px #3f87df;
+}
+
+.devSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(./assets/imagenes/fondos/devMobile.png);
+  background-size: cover;
+}
+
+.devSection h1 {
+  margin-top: 5px;
+  font-family: 'fira code', monospace;
+  font-weight: 400;
+  color: #ffff;
+  text-shadow: 3px 3px 5px #3f87df;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+footer h3 {
+  color: #ffff;
+  font-family: 'fira code', monospace;
+  font-weight: 300;
+}
+
+footer .botonIG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 28px;
+  width: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  border: none;
+  border-radius: 5px;
+}
+
+footer .botonYT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 28px;
+  width: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+
+footer .botonGH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 28px;
+  width: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #3f87df;
+  border: none;
+  border-radius: 5px;
+}
+
+footer .botonYT:hover, footer .botonIG :hover, footer .botonGH :hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
