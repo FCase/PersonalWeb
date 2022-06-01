@@ -81,7 +81,7 @@ nav {
   font-family: 'fira code', monospace;
   font-weight: 400;
   color: #f75036;
-  text-shadow: 1px 1px 2px #3f87df;
+  text-shadow: 2px 2px 5px  black;
 }
 
 .devSection {
@@ -109,7 +109,7 @@ nav {
   font-family: 'fira code', monospace;
   font-weight: 400;
   color: #ffff;
-  text-shadow: 3px 3px 5px #3f87df;
+  text-shadow: 2px 2px 3px #f75036;
 }
 
 footer {
